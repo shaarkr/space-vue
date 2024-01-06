@@ -27,10 +27,10 @@ const Dashboard = () => {
     <div className='flex flex-col h-screen md:flex-row'>
       <Sidebar />
       <div className='flex flex-col w-full gap-4 p-4 overflow-y-auto bg-gray-100 md:p-6'>
-        <header className='flex items-center justify-between gap-4 py-3'>
-          <h1 className='text-xl font-semibold'>Dashboard</h1>
+        <header className='flex items-center justify-between md:py-3 md:gap-4'>
+          <h1 className='font-semibold md:text-xl'>Dashboard</h1>
           <div className='flex items-center justify-center'>
-            <p className='text-lg font-medium'>Sharath</p>
+            <p className='text-xs font-medium md:text-lg'>Sharath</p>
           </div>
         </header>
 

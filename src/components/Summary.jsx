@@ -22,8 +22,9 @@ const Summary = ({ missions }) => {
       setTotalPrice(totalMissionPrice)
     }
   }, [missions])
+
   return (
-    <div className='flex flex-wrap justify-between w-1/3 gap-2 p-3 bg-white border border-gray-200'>
+    <div className='flex flex-col justify-between gap-2 p-3 bg-white border border-gray-200 md:w-1/3 md:flex-wrap md:flex-row'>
       <div className='flex-1 px-4 py-2 bg-green-200 border border-gray-300 rounded '>
         <h3 className='font-semibold text-green-700'>Successful</h3>
         <p className='text-3xl text-green-700 '>{successfulMissions}</p>
@@ -35,7 +36,7 @@ const Summary = ({ missions }) => {
 
       <div className='flex-1 px-4 py-2 bg-indigo-200 border border-gray-300 rounded '>
         <h3 className='font-semibold text-indigo-900'>Total Cost</h3>
-        <p className='text-3xl text-indigo-900'>
+        <p className='w-full overflow-hidden text-3xl text-indigo-900 text-ellipsis'>
           ${totalPrice.toLocaleString('en-US')}
         </p>
       </div>

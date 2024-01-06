@@ -56,11 +56,11 @@ const Charts = ({ missions }) => {
 
   return (
     chartOptions && (
-      <div className='flex items-center w-2/3 gap-2 p-2 bg-white border rounded'>
-        <div className=' h-[180px] w-1/2  overflow-hidden flex-1 border'>
+      <div className='flex flex-col gap-2 p-2 bg-white border rounded md:items-center md:w-2/3 md:flex-row'>
+        <div className=' h-[180px] md:w-1/2 flex-1 border'>
           <AgChartsReact options={barChartOptions} />
         </div>
-        <div className=' h-[180px] w-1/2  overflow-auto flex-1 border'>
+        <div className=' h-[180px] md:w-1/2 flex-1 border'>
           <AgChartsReact options={chartOptions} />
         </div>
       </div>
