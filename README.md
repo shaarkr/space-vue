@@ -4,7 +4,9 @@ SpaceVue is a React 18 application providing information about space missions. I
 
 ## Live Demo
 
-Check out the live demo of SpaceVue: [SpaceVue Demo](https://shaarkr.netlify.app)
+Check out the live demo of SpaceVue: [SpaceVue Demo](https://space-vue-wm.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d259fdb3-3ad8-4303-974f-e1c0416c64b9/deploy-status)](https://app.netlify.com/sites/space-vue-wm/deploys)
 
 ## Overview
 
