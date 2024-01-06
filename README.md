@@ -12,9 +12,43 @@ SpaceVue is a comprehensive space mission dashboard that features mission data v
 
 ## Screenshot
 
-| Desktop | Mobile |
+| Desktop                                  | Mobile                                            |
 | ---------------------------------------- | ------------------------------------------------- |
 | <img src="./screenshots/desktop.png"  /> | <img src="./screenshots/mobile.png" width="500"/> |
+
+## API and Sample Data
+
+The space mission data is fetched from the following API:
+
+- API: [Space Mission API](https://www.ag-grid.com/example-assets/space-mission-data.json)
+
+Here is a sample of the data:
+
+```json
+[
+  {
+    "mission": "CRS SpX-25",
+    "company": "SpaceX",
+    "location": "LC-39A, Kennedy Space Center, Florida, USA",
+    "date": "2022-07-15",
+    "time": "0:44:00",
+    "rocket": "Falcon 9 Block 5",
+    "price": 12480000,
+    "successful": true
+  },
+  {
+    "mission": "LARES 2 & Cubesats",
+    "company": "ESA",
+    "location": "ELV-1, Guiana Space Centre, French Guiana, France",
+    "date": "2022-07-13",
+    "time": "13:13:00",
+    "rocket": "Vega C",
+    "price": 4470000,
+    "successful": true
+  }
+  // ... (more mission data)
+]
+```
 
 ## Setup
 

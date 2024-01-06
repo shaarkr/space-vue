@@ -1,8 +1,17 @@
 {
   "name": "space-vue",
+  "description": "SpaceVue is a comprehensive space mission dashboard that features mission data visualization through charts and tables, providing an insightful overview of space exploration.",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "packageManager": "npm@9.8.1",
+  "engines": {
+    "node": "^18.12.1",
+    "vscode": "^1.22.0"
+  },
+  "repository": {
+    "url": "https://github.com/shaarkr/space-vue.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -29,5 +38,18 @@
     "prettier": "3.1.1",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
-  }
+  },
+  "license": "MIT",
+  "author": {
+    "email": "sharathkr@pm.me",
+    "name": "shaarkr"
+  },
+  "keywords": [
+    "space vue",
+    "react",
+    "dashboard",
+    "visualization",
+    "ag-grid",
+    "space mission data"
+  ]
 }
