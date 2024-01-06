@@ -34,8 +34,8 @@ const Dashboard = () => {
           </div>
         </header>
 
-        <div className='flex flex-col justify-between flex-1 w-full gap-4 overflow-y-auto'>
-          <Overview />
+        <div className='flex flex-col justify-between flex-1 flex-shrink-0 w-full gap-4 overflow-y-auto'>
+          <Overview missions={missions} />
 
           <MissionData data={missions} />
         </div>
