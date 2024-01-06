@@ -1,10 +1,10 @@
 import Table from './Table'
 
-const MissionData = () => {
+const MissionData = ({ data }) => {
   return (
     <>
       <h2 className='text-lg font-semibold'>Mission Data</h2>
-      <Table />
+      <Table data={data} />
     </>
   )
 }
