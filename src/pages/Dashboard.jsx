@@ -26,7 +26,7 @@ const Dashboard = () => {
   return (
     <div className='flex flex-col h-screen md:flex-row'>
       <Sidebar />
-      <div className='flex flex-col w-full gap-4 p-4 bg-gray-100 md:p-6'>
+      <div className='flex flex-col w-full gap-4 p-4 overflow-y-auto bg-gray-100 md:p-6'>
         <header className='flex items-center justify-between gap-4 py-3'>
           <h1 className='text-xl font-semibold'>Dashboard</h1>
           <div className='flex items-center justify-center'>
@@ -34,7 +34,7 @@ const Dashboard = () => {
           </div>
         </header>
 
-        <div className='flex flex-col justify-between flex-1 flex-shrink-0 w-full gap-4 overflow-y-auto'>
+        <div className='flex flex-col flex-1 flex-shrink-0 w-full gap-4'>
           <Overview missions={missions} />
 
           <MissionData data={missions} />

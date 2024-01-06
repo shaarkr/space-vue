@@ -15,7 +15,7 @@ const Table = ({ data = [] }) => {
     { headerName: 'Successful', field: 'successful' },
   ])
   return (
-    <div className='w-full ag-theme-alpine max-h-[400px] h-full'>
+    <div className='w-full ag-theme-alpine min-h-[200px] h-full'>
       <AgGridReact rowData={data} columnDefs={columnDefs.current} />
     </div>
   )

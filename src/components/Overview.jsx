@@ -5,8 +5,8 @@ const Overview = ({ missions }) => {
   return (
     <>
       <h2 className='text-lg font-semibold'>Overview</h2>
-      <div className='flex items-center justify-between flex-1 flex-shrink-0 gap-4'>
-        <Summary />
+      <div className='flex justify-between flex-shrink-0 w-full gap-4'>
+        <Summary missions={missions} />
         <Charts missions={missions} />
       </div>
     </>
