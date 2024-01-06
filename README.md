@@ -8,6 +8,9 @@ Check out the live demo of SpaceVue: [SpaceVue Demo](https://space-vue-wm.netlif
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d259fdb3-3ad8-4303-974f-e1c0416c64b9/deploy-status)](https://app.netlify.com/sites/space-vue-wm/deploys)
 
+> [!TIP]
+> Use the following credentials to login: **Username**: `admin` & **Password**: `admin`
+
 ## Overview
 
 SpaceVue is a comprehensive space mission dashboard that features mission data visualization through charts and tables, providing an insightful overview of space exploration.
