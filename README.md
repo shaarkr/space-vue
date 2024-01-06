@@ -81,6 +81,11 @@ Here is a sample of the data:
 - react-dom: ^18.2.0
 - react-router-dom: ^6.21.1
 
+## Resources
+
+- AG-Grid Documentation: [AG-Grid](https://www.ag-grid.com/)
+- AG-Charts Documentation: [AG-Charts](https://charts.ag-grid.com/)
+
 ## Scripts
 
 - **dev:** Run the development server.
