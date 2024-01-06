@@ -5,7 +5,7 @@ const Sidebar = () => {
     <>
       <aside className='flex-col hidden w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r md:flex dark:bg-gray-900 dark:border-gray-700'>
         <Link to='/dashboard'>
-          <h1 className='text-3xl font-bold'>SpaceVue</h1>
+          <h1 className='text-3xl font-bold dark:text-gray-200'>SpaceVue</h1>
         </Link>
 
         <div className='flex flex-col justify-between flex-1 mt-6'>

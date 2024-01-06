@@ -8,7 +8,10 @@ const Login = () => {
   let navigate = useNavigate()
 
   const handleLogin = () => {
-    if (username === 'admin' && password === 'admin') {
+    if (
+      username.toLowerCase() === 'admin' &&
+      password.toLowerCase() === 'admin'
+    ) {
       navigate('/dashboard')
     } else {
       alert('Invalid credentials. Please try again.')

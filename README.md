@@ -86,7 +86,7 @@ Here is a sample of the data:
    npm run dev
    ```
 
-   The app will be accessible at [http://localhost:3000](http://localhost:3000).
+   The app will be accessible at [http://localhost:5173](http://localhost:5173).
 
 ## Dependencies
 
