@@ -10,6 +10,16 @@ Check out the live demo of SpaceVue: [SpaceVue Demo](https://shaarkr.netlify.app
 
 SpaceVue is a comprehensive space mission dashboard that features mission data visualization through charts and tables, providing an insightful overview of space exploration.
 
+## Designs
+
+### Wireframe
+
+![SpaceVue Wireframe](docs/SpaceVue.drawio.png)
+
+### Draw.io File
+
+For a detailed view, you can check the [SpaceVue.drawio](docs/SpaceVue.drawio) file.
+
 ## Screenshot
 
 | Desktop                                  | Mobile                                            |
